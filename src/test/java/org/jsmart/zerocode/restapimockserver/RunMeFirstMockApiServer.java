@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  */
 @ApiRepo("localhost_stubs")
 public class RunMeFirstMockApiServer extends JsonBasedSimulator {
-    private static final Logger logger = LoggerFactory.getLogger(RunMeFirstMockApiServer.class);
+    public static final Logger logger = LoggerFactory.getLogger(RunMeFirstMockApiServer.class);
 
     public static final int PORT = 8088;
 

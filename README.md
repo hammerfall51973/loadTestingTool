@@ -12,7 +12,13 @@ loop.count=2
 
 (100 requests in 100secs i.e. each request in 1 sec gap, looping twice, meaning 200 parallel requests)
 
-2.Run RunMeFirstApiServer main method
+2.Run testGetScreeningLocalAndGlobal method inside GetScreeningServiceTest
 
-3.Run testGetScreeningLocalAndGlobal method inside GetScreeningServiceTest
+From command line:
+
+mvn -Dtest=GetScreeningServiceTest.java test
+
+
+
+
 
