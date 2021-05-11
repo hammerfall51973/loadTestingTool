@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 public class GetScreeningServiceTest {
 
     @Test
-    @JsonTestCase("load_tests/get/get_screening_details_by_custid.json")
+    @JsonTestCase("load_tests/get/get_details_by_id.json")
     public void testGetScreeningLocalAndGlobal() throws Exception {
 
     }
