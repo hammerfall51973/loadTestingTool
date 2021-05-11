@@ -1,0 +1,21 @@
+{
+    "scenarioName": "Screening API- Get Screening by customerId test",
+    "steps": [
+        {
+            "name": "get_screening_details",
+            "url": "/api/v1/screening/cust-ids/EXAMPLE1",
+            "operation": "GET",
+            "request": {
+            },
+            "assertions": {
+                "status": 200,
+                "body": {
+                    "id" : "EXAMPLE1",
+                    "localScreeningStatus" : "Green",
+                    "globalScreeningStatus" : "Red"
+                }
+            }
+        }
+
+    ]
+}
